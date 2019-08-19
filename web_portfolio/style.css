@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #333;
+    color: #fff;
+    height: 100vh;
+    line-height: 1.6;
+    overflow: hidden;
+  }
+  button {
+	font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    /* CSS Smooth Scroll */
+    overflow-y: scroll; 
+    scroll-behavior: smooth;
+  }
+  
+  .lead {
+    font-size: 1.5rem;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,0.15);
+    
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+    
+  }
+  
+  .navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+    
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+  }
+  
+  .navbar ul li a:hover {
+    color: skyblue;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+   
+    /* Scroll Snap */
+    scroll-snap-align: center;
+  }
+  
+  section h1 {
+    font-size: 4rem;
+  }
+  
+  /* Section Images */
+  section#home {
+    background: url(./img/background.jpg) no-repeat center center/cover;;
+  }
+  
+  section#about {
+    background: white no-repeat center center/cover;;
+        height: 100%;
+        width: 100%;
+  }
+  
+  section#contact {
+    background: url(./img/blossom.jpg) no-repeat center center/cover;;
+  }
+
+.intro-text h1 {
+	font-size: 44px;
+    font-weight: 500;
+    position:relative; left:-450px; top:-50px;
+	background: linear-gradient(to right, #e7e7ec, #bebed3);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.intro-text p {
+	margin-top: 5px;
+    font-size: 22px;
+    position:relative; left:-450px; top:-50px;
+	color: #e7e7ec;
+}
+.about-text h1 {
+	font-size: 65px;
+    font-weight: 500;
+    position:relative; left:0px; top:200px;
+	background: linear-gradient(to right,black, black);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.about-text p {
+	margin-top: 5px;
+    font-size: 16px;
+    position:relative; left:0px; top:180px;
+	color: black;
+}
+
+.college h1 {
+	font-size: 20px;
+    font-weight: 500;
+    position:relative; left:540px; top:-160px;
+	background: linear-gradient(to right,black, black);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.college h2 {
+	margin-top: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    position:relative; left:180px; top:-140px;
+    display: inline-block;
+    white-space: nowrap;
+	color: black;
+}
+.college h3 {
+	margin-top: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    position:relative; left:-25px; top:-120px;
+    display: inline-block;
+    white-space: nowrap;
+	color: black;
+}
+
+.work h1 {
+	font-size: 20px;
+    font-weight: 500;
+    position:relative; left:-120px; top:-280px;
+	background: linear-gradient(to right,black, black);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.work h2 {
+	margin-top: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    position:relative; left:-519px; top:-260px;
+    display: inline-block;
+    white-space: nowrap;
+	color: black;
+}
+.work h3 {
+	margin-top: 5px;
+    font-size: 16px;
+    font-weight: 300;
+    position:relative; left:-692px; top:-240px;
+    display: inline-block;
+    white-space: nowrap;
+	color: black;
+}
+.work-UMD img {
+    width: 80px;
+	height: 80px;
+    position:relative; left:-550px; top:-320px;
+	animation: drop 1.5s ease;
+}
+.row {
+    position:relative; left:400px; top:-200px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin: auto;
+    display: block;
+  }
+  .column img {
+    width: 15%;
+  }
+
+
+
+
+.button {
+	padding: 50px 0px 0px 0px;
+}
+.row h1 {
+	font-size: 40px;
+    font-weight: 500;
+	background: linear-gradient(to right,black, black);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    white-space: nowrap;
+
+}
+
+
+
+
+.about-me {
+	border: 2px solid #e7e7ec;
+	background: transparent;
+	color: #e7e7ec;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+    font-size: 16px;
+    position:relative; left:-450px; top:-100px;
+}
+.about-me:hover{
+    background: #5e8da8;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white
+}
+.contact-me {
+	border: 2px solid #e7e7ec;
+	background: transparent;
+	color: #e7e7ec;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+    margin: 30px 0px 0px 30px;
+    position:relative; left:-450px; top:-100px;
+}
+.contact-me:hover{
+    background: #5e8da8;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: white
+}
+
+.profile img {
+    width: 400px;
+	height: 400px;
+    position:relative; left:-400px; top:400px;
+	animation: drop 1.5s ease;
+}
+.UMD img {
+    width: 80px;
+	height: 80px;
+    position:relative; left:150px; top:-200px;
+	animation: drop 1.5s ease;
+}
+
+
+
+
+
+@keyframes drop {
+	0% {
+		opacity: 0;
+		transform: translateY(-80px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+  
+  
+  
